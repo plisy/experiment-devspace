@@ -14,9 +14,15 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+.devspace/
+devspace.yaml
+
+.air.toml
+tmp/
+
 bin/
+kube/
 
 node_modules/
 
-# Ignore DevSpace cache and log folder
-.devspace/
+Dockerfile
